@@ -1,0 +1,159 @@
+body{
+    font-family: sans-serif;
+    background-color: #d9e0e7;
+    background-image: url(../imagenes/fondo-inicio-1.png);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+/* .pagina-actual{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+} */
+
+/* --------------- HEADER ---------------*/
+
+header{
+    background-color: #011c57;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-header{
+    width: 120px;
+    margin: 10px;
+}
+
+
+.h1-logo{
+    color: white;
+}
+
+ul{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+li:hover{
+    background-color: darkgrey;
+    transition-duration: 500ms;
+    border-radius: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.navbar-sup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+.navbar-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #676363;
+    align-items: center;
+    height: 50px;
+}
+
+/* .lista-links-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+.lista-links-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background-color: darkgrey;
+}
+ */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*-------------FIN HEADER-------------*/
+
+/*-------------INICIO--------------*/
+
+
+.botones{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-image: url(/imagenes/logo-exolgan-2.png);
+
+}
+
+ .a-nuevo-chofer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#011c57;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+
+} 
+ .a-nuevo-chofer:hover{
+    background-color: #428bca;
+    transition-duration: 400ms;
+    width: 400px;
+} 
+
+.a-nuevo-vehiculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e61400;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.a-nuevo-vehiculo:hover{
+    background-color: #e74a3b;
+    transition-duration: 400ms;
+    width: 400px;
+}
+
+
+
+
+/*-------------FIN INICIO-------------*/
+
